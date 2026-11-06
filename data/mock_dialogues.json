@@ -1,0 +1,36 @@
+[
+  {
+    "external_id": "mock-chat-001",
+    "messages": [
+      {
+        "role": "client",
+        "content": "Как восстановить пароль?"
+      },
+      {
+        "role": "operator",
+        "content": "Перейдите на страницу восстановления пароля."
+      }
+    ]
+  },
+  {
+    "external_id": "mock-chat-002",
+    "messages": [
+      {
+        "role": "client",
+        "content": "Как изменить номер телефона?"
+      },
+      {
+        "role": "operator",
+        "content": "Откройте настройки профиля."
+      },
+      {
+        "role": "client",
+        "content": "А если старый номер недоступен?"
+      },
+      {
+        "role": "operator",
+        "content": "Обратитесь в службу поддержки для подтверждения личности."
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[project]
+name = "gigachat-langchain-agent"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "alembic>=1.20.1",
+    "langchain>=1.4.7",
+    "langchain-gigachat>=0.5.1",
+    "langgraph-checkpoint-postgres>=3.2.0",
+    "pgvector>=0.5.1",
+    "psycopg[binary]>=3.3.6",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+    "sqlalchemy>=2.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+]
